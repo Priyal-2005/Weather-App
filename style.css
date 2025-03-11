@@ -86,7 +86,7 @@ body:before{
     font-family: "Material Symbols Outlined";
 }
 
-/* Section Weather */
+/* Weather Section */
 .weather-info{
     display: flex;
     flex-direction: column;
@@ -193,4 +193,19 @@ body:before{
 .forecast-item-img{
     width: 35px;
     height: 35px;
+}
+
+/* Message section */
+.section-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 25%;
+}
+
+.section-message img{
+    height: 180px;
+    width: fit-content;
 }
